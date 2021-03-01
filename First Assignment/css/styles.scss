@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+.hero {
+  background-image: url("/images/cookies.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6rem 45rem 6rem 6rem;
+
+  h1,
+  h2,
+  h3,
+  p {
+    color: #fff;
+    padding-bottom: 1rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
+.recipe {
+  padding: 3rem 6rem;
+  background: cornsilk;
+  h3 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+  .ingredients > h4,
+  .instructions > h4 {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+
+    span {
+      font-weight: 400;
+    }
+  }
+
+  .ingredients > ul,
+  .instructions > ol {
+    padding-bottom: 1rem;
+  }
+
+  .ingredients > ul > li,
+  .instructions > ol > li {
+    font-size: 1rem;
+  }
+
+  hr {
+    margin: 2rem 0;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
