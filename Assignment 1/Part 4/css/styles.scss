@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr;
+  padding: 2%;
+
+  div {
+    border: 3px solid black;
+  }
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .header {
+    width: 95%;
+    height: 90%;
+    background-color: green;
+  }
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  div {
+    margin: 4% 8%;
+  }
+}
+
+.gallery > div {
+  background-image: url("../images/Oak.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.boxes {
+  .one {
+    background-color: #ff9900;
+  }
+
+  .two {
+    background-color: #ce2b27;
+  }
+
+  .three {
+    background-color: #6fa7db;
+  }
+}
