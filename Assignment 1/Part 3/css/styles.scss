@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1.5fr 4fr;
+  padding: 2%;
+
+  div {
+    border: 3px solid black;
+  }
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .header {
+    width: 95%;
+    height: 90%;
+    background-color: #8e7cc3;
+  }
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  div {
+    margin: 8%;
+  }
+  .one {
+    background-color: #e06666;
+  }
+
+  .two {
+    background-color: #92c47c;
+  }
+
+  .three {
+    background-color: #ff9900;
+  }
+}
